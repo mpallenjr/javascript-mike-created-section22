@@ -220,3 +220,27 @@ if(height) {
 // another example, but head to using a ZERO for the height. will retunr false(UNDEFINED).
 */
 
+const age = 18;
+if (age === 18) console.log('You just became an adult');
+if (age == '18') console.log('You just became an adult');
+
+
+/// tripple equality operator is the strict comparison to the other value, it will return a boolean value, true or false. 
+
+// loose equality operator is the double equal which does type coercion, converting an interger or string in order to make the comparison to the other value.  It will return a boolean value. 
+
+const favorite = Number(prompt("What's your favorite number?"));
+console.log(favorite)
+console.log(typeof favorite);
+
+if (favorite === 23) {
+  console.log('Cool! 23 is an amazing number!')
+} else if(favorite === 7) {
+  console.log('7 is also a cool number')
+} else if(favorite === 9) {
+  console.log('9 is also a cool number')
+}else {
+  console.log('Number is no 23 or 7 or 9')
+}
+
+if (favorite !== 23) console.log('Why not 23?');

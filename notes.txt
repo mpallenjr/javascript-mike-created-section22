@@ -127,3 +127,12 @@ Section 21 - Truthy and Falsy values
 Everything else is true
 
 so when using a boolean function, that is how the result is determinesd. 
+
+\\\\\\\\\\
+
+Section 22 - Equality Operators: == vs. ===
+
+The tripple equals is a strict  equality operator, the double is a loose equality oerator.  The triple will only give true if the input and input type are the same as the comparison.  The double equal will also incorperate type coercion, which will try to convert a values type in an effort to compare the two.  
+
+You should always be using the tripple equality operator.  Even in a case where you want type coercion, it is better to mannualy convert they type, than to use a double equal opeerator. 
+
